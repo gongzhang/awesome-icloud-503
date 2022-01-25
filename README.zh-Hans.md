@@ -1,7 +1,13 @@
+中文 | [English](https://github.com/gongzhang/awesome-icloud-503)
+
 # Awesome iCloud 503
+
+> __iCloud: Service Unavailable 503__
+
 帮助 Apple 跟踪和解决 iCloud 503 服务不可用的问题。
 
 ## 2021年11月 - iCloud 发生了什么？
+
 我是一个苹果平台的独立应用开发者。大概从2021年11月（也许是10月）开始，陆续有用户向我报告我 App 中的 iCloud 同步功能完全无法工作了。典型的错误消息是：
 
 ```
@@ -10,7 +16,7 @@
 
 虽然这个错误在以往也出现过，但都是临时的，会很快自动恢复。但是这次情况不同：一旦用户遇到 iCloud 503 错误，就似乎再也没有办法自行恢复了。通过分析数据得知，我的应用大约有 1% - 2% 的用户受此问题困扰。
 
-经过一番调研，我发现很多应用都遇到了相同问题。显然是 iCloud 自身出了毛病。由于没有有效的解决办法，遇到问题的用户只能彻底放弃使用应用中的 iCloud 同步功能，甚至直接放弃整个 App。
+经过一番调研，我发现很多应用都遇到了相同问题（见 [Related Articles and Discussions](#related-articles-and-discussions])）。显然是 iCloud 自身出了毛病。由于没有有效的解决办法，遇到问题的用户只能彻底放弃使用应用中的 iCloud 同步功能，甚至直接放弃整个 App。
 
 ## 2021年12月 - 转机
 

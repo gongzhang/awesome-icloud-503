@@ -1,5 +1,10 @@
+English | [中文](https://github.com/gongzhang/awesome-icloud-503/blob/main/README.zh-Hans.md)
+
 # Awesome iCloud 503
-Help Apple track and resolve issues about the iCloud 503 service unavailable error.
+
+> __iCloud: Service Unavailable 503__
+
+Help 🍎 Apple track and resolve the issue about iCloud 503 service unavailable error.
 
 ## November 2021 - what's happening with iCloud?
 
@@ -9,13 +14,13 @@ I'm an indie app developer on the Apple platform. Starting around November 2021 
 <CKError: "Service Unavailable" (6/2022); "Request failed with http status code 503"; uuid = ...>
 ```
 
-Although this error has occurred in the past, it has been quickly and automatically recovered. But this time it's different: once a user encounters an iCloud 503 error, there seems to be no way to recover on your own. I analyzed the data and found that about 1% - 2% of my app users were suffering from this problem.
+Although this error has occurred in the past, it has been quickly and automatically recovered. But this time it's different: once a user encounters an iCloud 503 error, there seems to be __no way to recover on your own__. I analyzed the data and found that about 1% - 2% of my app users were suffering from this problem.
 
-After some research, I found that many apps were experiencing the same problem. It was clear that iCloud itself was at fault. With no effective solution, users who encountered the problem had to give up using the iCloud sync feature in the app altogether, or even abandon the app altogether.
+After some research, I found that many apps were experiencing the same problem (see [Related Articles and Discussions](#related-articles-and-discussions])). It was clear that iCloud itself was at fault. With no effective solution, users who encountered the problem had to give up using the iCloud sync feature in the app altogether, or even abandon the app altogether.
 
 ## December 2021 - The Turnaround
 
-In mid-December 2021, things started to turn around. Analytics backend data from my app showed a dramatic reduction in iCloud 503 errors. Apple seems to be aware of the iCloud problem and has fixed it. Unfortunately, however, an equal number of another type of iCloud error began to appear.
+In mid-December 2021, things started to turn around. Analytics data from my app showed a dramatic reduction in iCloud 503 errors. Apple seems to be aware of the iCloud problem and has fixed it. Unfortunately, however, an equal number of another type of iCloud error began to appear.
 
 ```
 <CKError: "Server Record Changed" (14/2004); server message = "record to insert already exists"; uuid = ...>
@@ -27,7 +32,7 @@ The good news is that I found that now I can just delete the old iCloud record a
 
 ## January 10, 2022 - 12 hours of iCloud downtime
 
-On January 10, 2022 at around 8pm (CST), I suddenly found that iCloud syncing was not working on all my devices, not only my own apps, but also third-party apps, and even Apple apps. yes, once again, there was an iCloud 503 error, and it seemed to be global.
+On January 10, 2022 at around 8pm (CST), I suddenly found that iCloud syncing was not working on all my devices, not only my own apps, but also third-party apps, and even Apple apps. Yes, once again, there was an iCloud 503 error, and it seemed to be global.
 
 <img src="images/AppleSystemStatus.jpeg" width="200">
 

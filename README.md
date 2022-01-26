@@ -26,7 +26,7 @@ I'm an indie app developer on the Apple platform. Starting around November 2021 
 
 Although this error has occurred in the past, it has been quickly and automatically recovered. But this time it's different: once a user encounters an iCloud 503 error, there seems to be __no way to recover on your own__. I analyzed the data and found that about 1% - 2% of my app users were suffering from this problem.
 
-After some research, I found that many apps were experiencing the same problem (see [Related Articles](#related-articles])). It was clear that iCloud itself was at fault. With no effective solution, users who encountered the problem had to give up using the iCloud sync feature in the app altogether, or even abandon the app altogether.
+After some research, I found that many apps were experiencing the same problem (see [Related Articles](#related-articles)). It was clear that iCloud itself was at fault. With no effective solution, users who encountered the problem had to give up using the iCloud sync feature in the app altogether, or even abandon the app altogether.
 
 ## December 2021 - The Turnaround
 
@@ -51,3 +51,9 @@ The next morning (12 hours have passed), the [Official Apple Service Status](htt
 ## Late January 2022 - The Problem Returns
 
 After the January 10 incident, I was very frustrated to find that the iCloud 503 issue seems to be back. A small number of users have started experiencing iCloud 503 errors again and are never able to recover. I have not found an effective solution for my users so far.
+
+## January 25, 2022 - Outage Again
+
+During January 25, iCloud once again experienced widespread downtime. Apple reported the issue was resolved on the 26th (CST).
+
+<img src="images/AppleSystemStatus2.png" width="200">

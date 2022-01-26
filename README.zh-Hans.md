@@ -6,6 +6,16 @@
 
 帮助 Apple 跟踪和解决 iCloud 503 服务不可用的问题。
 
+## 相关报道
+
+- __GoodNotes__: [iCloud sync stops working due to "Request failed with HTTP Status Code 503" error.](https://support.goodnotes.com/hc/en-us/articles/4410195261327-iCloud-sync-stops-working-due-to-Request-failed-with-HTTP-Status-Code-503-error-)
+- __MacRumors__: [Developers Unhappy With Bug Causing iCloud Unreliability](https://www.macrumors.com/2022/01/24/developers-icloud-unreliability-bug/)
+- __9to5mac__: [iCloud syncing issues are plaguing third-party apps as Apple stays silent](https://9to5mac.com/2022/01/24/icloud-syncing-issues-are-plaguing-third-party-apps-as-apple-stays-silent/)
+- __Mac Observer__: [Developers Build Alternatives to iCloud Sync](https://www.macobserver.com/news/developers-build-alternatives-to-icloud-sync/)
+- __TechRadar__: [Developers want to know from Apple if an iCloud issue will finally be fixed](https://www.techradar.com/news/developers-want-to-know-from-apple-if-an-icloud-issue-will-finally-be-fixed)
+- __AppleInsider__: [Apple iCloud outage causing some services to be slow or unavailable](https://appleinsider.com/articles/22/01/26/apple-icloud-outage-causing-some-services-to-be-slow-or-unavailable)
+- __cnBeta__: [开发者抱怨iCloud服务器出现稳定问题 导致无法正常同步](https://www.cnbeta.com/articles/tech/1229847.htm)
+
 ## 2021年11月 - iCloud 发生了什么？
 
 我是一个苹果平台的独立应用开发者。大概从2021年11月（也许是10月）开始，陆续有用户向我报告我 App 中的 iCloud 同步功能完全无法工作了。典型的错误消息是：
@@ -16,7 +26,7 @@
 
 虽然这个错误在以往也出现过，但都是临时的，会很快自动恢复。但是这次情况不同：一旦用户遇到 iCloud 503 错误，就似乎再也没有办法自行恢复了。通过分析数据得知，我的应用大约有 1% - 2% 的用户受此问题困扰。
 
-经过一番调研，我发现很多应用都遇到了相同问题（见 [Related Articles and Discussions](#related-articles-and-discussions])）。显然是 iCloud 自身出了毛病。由于没有有效的解决办法，遇到问题的用户只能彻底放弃使用应用中的 iCloud 同步功能，甚至直接放弃整个 App。
+经过一番调研，我发现很多应用都遇到了相同问题。显然是 iCloud 自身出了毛病。由于没有有效的解决办法，遇到问题的用户只能彻底放弃使用应用中的 iCloud 同步功能，甚至直接放弃整个 App。
 
 ## 2021年12月 - 转机
 
@@ -41,9 +51,3 @@
 ## 2022年1月下旬 - 回到原点
 
 在1月10日的事故之后，我非常沮丧的发现 iCloud 503 问题似乎回到了原点。又开始有小部分用户遇到 iCloud 503 错误，且永远无法恢复。我至今没有帮我的用户们找到有效的解决办法。
-
-## 相关报道和讨论
-
-- [GoodNotes: iCloud sync stops working due to "Request failed with HTTP Status Code 503" error.](https://support.goodnotes.com/hc/en-us/articles/4410195261327-iCloud-sync-stops-working-due-to-Request-failed-with-HTTP-Status-Code-503-error-)
-- [MacRumors: Developers Unhappy With Bug Causing iCloud Unreliability](https://www.macrumors.com/2022/01/24/developers-icloud-unreliability-bug/)
-- [cnBeta.COM: 开发者抱怨iCloud服务器出现稳定问题 导致无法正常同步](https://www.cnbeta.com/articles/tech/1229847.htm)
